@@ -17,7 +17,7 @@ const RoundedFull = ({ icon }) => {
   );
 };
 
-function Work() {
+function BackForWork() {
  
 
   const currentYear = new Date().getFullYear();
@@ -91,4 +91,4 @@ function Work() {
   );
 }
 
-export default Work;
+export default BackForWork;
