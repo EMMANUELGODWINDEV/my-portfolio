@@ -1,0 +1,373 @@
+[
+  {
+    "id": 1,
+    "name": " Hikers 32 FrameLess Android Smart HD LED TV -Black",
+    "price": "130.18",
+    "description": " Smart HD LED TV-Black.",
+    "images": "./src/assets/TVHikers32.jpg"
+  },
+  {
+    "id": 2,
+    "name": "HiSense 43 Inches LED HD TV 2024  ",
+    "price": "309.37",
+    "description": " High LED TV-Black",
+    "images": "./src/assets/HiSense43.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Hikers 32 Inches frameLess FHD LED TV -Black ",
+    "price": "497.56",
+    "description": "High performance LED HD TV-Black.",
+    "images": "./src/assets/UFCTv.jpg"
+  },
+  {
+    "id": 4,
+    "name": "UFC  43 Inches FHD LED TV (32A2N) -Black +1 Year Warranty ",
+    "price": "259",
+    "description": "4K UHD  LED TV 2024",
+    "images": "./src/assets/UFC ANDROID.jpg"
+  },
+  {
+    "id": 5,
+    "name": " TCL 43-Inch Android Smart FHD TV",
+    "price": "745.21",
+    "description": "Ultra FHD 4K smart ",
+    "images": "./src/assets/TCL 65.jpg"
+  },
+  {
+    "id": 6,
+    "name": " Samsung QN90C 6 Inch Ultra TV",
+    "price": "4500",
+    "description": "Android LED TV-Black",
+    "images": "./src/assets/samsung 3.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Polystar Inch Curve Smart 4K TV",
+    "price": "3400",
+    "description": "Netflix + Android and 1 year Warranty.",
+    "images": "./src/assets/curvedTv.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Hikers 55 Inches Android HD LED  TV -Black ",
+    "price": "699.19",
+    "description": "Full HD Smart LED  Android and 1 year Warranty .",
+    "images": "./src/assets/Hikers1.jpg"
+  },
+  {
+    "id": 9,
+    "name": " Textile Fabric Material silk cotton",
+    "price": "3.25",
+    "description": "5pcs Purple Japanese Style Bronzing Cotton Cloth Quilting Fabric For DIY Sewing Scrapbooking Quilting Craft",
+    "images": "./src/assets/TextileZuwahia18.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Floral Cotton Quilted Fabric Textiles",
+    "price": "33.59",
+    "description": "7pcs 24.89*24.89cm Floral Cotton Quilted Fabric Used For Handcraft Splicing Of Clothes Sewing Of Clothing Crafts",
+    "images": "./src/assets/TextileZuwahia15.jpg"
+  },
+
+  {
+    "id": 11,
+    "name": "5 Rolls Quitted Fabric Textiles",
+    "price": "21.37",
+    "description": "12 Rolls 8 x35(20x90cm) 2mm Thick Soft Felt Fabric Sheet 12 Assorted Colors Felt Pack for DIY Craft Sewing Squares",
+    "images": "./src/assets/TextileZuwahia11.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Vibrant Colored Floral Cotton Quilted Fabric Textiles",
+    "price": "4.69",
+    "description": "7pcs Vibrant Fabric Bundle - Floral, Plaid & Polka FlowerStyle Bronzing Cotton Cloth Quilting Fabric For DIY Sewing .",
+    "images": "./src/assets/TextileZuwahia10.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Floral Silk linen Fabric Textiles",
+    "price": "8.91",
+    "description": " Floral linen Fabric Used For Of Clothes Sewing Of Assorted Crafts",
+    "images": "./src/assets/TextileZuwahia1.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Plaid colored textiles Fabric",
+    "price": "3.5",
+    "description": " 15pcs Plaid  Vibrant Fabric For DIY Sewing Scrapbooking Quilting Craft  .",
+    "images": "./src/assets/TextileZuwahia2.jpg"
+  },
+  {
+    "id": 15,
+    "name": "African Quitted Floral Textiles Fabric",
+    "price": "3.67",
+    "description": "8pcs DIY seamless African woven Fabric Sheet for DIY Craft Sewing Squares .",
+    "images": "./src/assets/TextileZuwahia3.jpg"
+  },
+
+  {
+    "id": 16,
+    "name": " Floral Quitted Linen Textile Fabric ",
+    "price": "2.99",
+    "description": "  7 x36(21x80cm) 2mm flower Pattern Felt Fabric Sheet 12 Assorted Colors for Craft sewing Squares.",
+    "images": "./src/assets/TextileZuwahia4.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Smartphone XYZ",
+    "price": "298.88",
+    "description": "Latest smartphone with great features.",
+    "images": "./src/assets/cushion Chair 400.jpg"
+  },
+  {
+    "id": 18,
+
+    "name": "TV Model ABC",
+    "price": "1076",
+    "description": "Enjoy your favorite shows with excellent picture quality.",
+    "images": "./src/assets/Cushion Chair 290.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Laptop 123",
+    "price": "565",
+    "description": "High performance laptop for all your needs.",
+    "images": "./src/assets/Cushion Chair 250.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Cushion Sofa chair",
+    "price": "400",
+    "description": "Noise-canceling headphones for an immersive experience.",
+    "images": "./src/assets/Cushion Chair 320.jpg"
+  },
+
+  {
+    "id": 21,
+    "name": "Mobil 1 Extended Performance OW-20 Motor Oil - 5 Quart",
+    "price": "8.43",
+    "description": "Advanced 1000 miles Guaranteed.",
+    "images": "./src/assets/Engine Oil 17.jpg"
+  },
+  {
+    "id": 22,
+
+    "name": "Engine Oil",
+    "price": "11.23",
+    "description": "High performance laptop for all your needs.",
+    "images": "./src/assets/redEngin OIL 30.jpg"
+  },
+  {
+    "id": 23,
+
+    "name": "Engine Oil",
+    "price": "12",
+    "description": "Noise-canceling headphones for an immersive experience.",
+    "images": "./src/assets/Engine Oil 50.jpg"
+  },
+  {
+    "id": 24,
+    "name": "Engine Oil",
+    "price": "33",
+    "description": "Noise-canceling headphones for an immersive experience.",
+    "images": "./src/assets/micking Engine Oil.jpg"
+  },
+  {
+    "id": 25,
+    "name": "Engine Oil",
+    "price": ".99",
+    "description": "Noise-canceling headphones for an immersive experience.",
+    "images": "./src/assets/Toyota ENGINE oil.jpg"
+  },
+
+  {
+    "id": 26,
+    "name": "Smartphone XYZ",
+    "price": ".299",
+    "description": "Latest smartphone with great features.",
+    "images": "./src/assets/Liquil Moly Engine oil.jpg"
+  },
+  {
+    "id": 27,
+    "name": "TV Model ABC",
+    "price": ".499",
+    "description": "Enjoy your favorite shows with excellent picture quality.",
+    "images": "./src/assets/Motocraft Engine oil.jpg"
+  },
+  {
+    "id": 28,
+    "name": "Laptop 123",
+    "price": ".899",
+    "description": "High performance laptop for all your needs.",
+    "images": "./src/assets/Engine Oil Amtecol.jpg"
+  },
+  {
+    "id": 29,
+    "name": "Earphones",
+    "price": "99",
+    "description": "Noise-canceling headphones for an immersive experience.",
+    "images": "./src/assets/earBuds  16 .jpg"
+  },
+  {
+    "id": 30,
+    "name": "Earphones",
+    "price": ".99",
+    "description": "Noise-canceling headphones for an immersive experience.",
+    "images": "./src/assets/earBuds 19.jpg"
+  },
+  {
+    "id": 31,
+    "name": "Earphones ",
+    "price": ".29",
+    "description": "Latest smartphone with great features.",
+    "images": "./src/assets/Earpod bluetooth.jpg"
+  },
+  {
+    "id": 32,
+    "name": "Earphones ",
+    "price": "15",
+    "description": "Enjoy your favorite shows with excellent picture quality.",
+    "images": "./src/assets/Earpodskcd.jpg"
+  },
+  {
+    "id": 33,
+    "name": "Earphones ",
+    "price": "8.5",
+    "description": "High performance laptop for all your needs.",
+    "images": "./src/assets/Earpods SAMSUNG.jpg"
+  },
+  {
+    "id": 34,
+    "name": "Headphones",
+    "price": ".99",
+    "description": "Noise-canceling headphones for an immersive experience.",
+    "images": "./src/assets/B39 Cute headphonees.jpg"
+  },
+  {
+    "id": 35,
+    "name": "Headphones",
+    "price": ".99",
+    "description": "Noise-canceling headphones for an immersive experience.",
+    "images": "./src/assets/p.jpg"
+  },
+  {
+    "id": 36,
+    "name": "Smartphone XYZ",
+    "price": ".299",
+    "description": "Latest .",
+    "images": "./src/assets/P9 bluetooth.jpg"
+  },
+  {
+    "id": 37,
+    "name": "VIC 20,000mah PowerBank",
+    "price": "12",
+    "description": "Standard Quality PowerBank plus LED Flashlight.",
+    "images": "./src/assets/powerBank.jpg"
+  },
+  {
+    "id": 38,
+    "name": "New Age 50,000mah Power Bank",
+    "price": "45",
+    "description": "High performance PowerBank Plus Free charger.",
+    "images": "./src/assets/PowerBankMINE50.jpg"
+  },
+  {
+    "id": 39,
+    "name": "Greenew 50,000mah PowerBank ",
+    "price": "46.29",
+    "description": "Top-notch Quality PowerBank.",
+    "images": "./src/assets/PO.jpg"
+  },
+  {
+    "id": 40,
+    "name": "Itel 40,000mah PowerBank ",
+    "price": "29.58",
+    "description": "Highest Quality PowerBank plus Free Earphones.",
+    "images": "./src/assets/PowerBank3500.jpg"
+  },
+  {
+    "id": 41,
+    "name": " New Age 33000mAh PowerBank   ",         
+    "price": "26.34",
+    "description": "POWER BANK WITH FASTCHARGE TYPE C INPUT & OUTPUT",
+    "images": "./src/assets/NewAge 33000mAh.jpg"
+  },
+  {
+    "id": 42,
+    "name": "Ace Elec 20000 MAh Utra Slim Portable PowerBank",
+    "price": "12",
+    "description": "Standard Portable for all .",
+    "images": "./src/assets/powerbankQ.jpg"
+  },
+  {
+    "id": 43,
+    "name": " itel 45000mAh Max Power 450PF PowerBank",
+    "price": "28",
+    "description": "Quality Fast Charge PowerBank With Lamp.",
+    "images": "./src/assets/Itel5290.jpg"
+  },
+  {
+    "id": 44,
+    "name": "Oraimo 40000mAh PowerBank",
+    "price": "47",
+    "description": "Strong Massive PowerCharing BankTraveller With Cord.",
+     "images": "./src/assets/powerbankOraimo.jpg"
+  },
+  {
+    "id": 45,
+    "name": "Phones",
+    "price": "47",
+    "description": "Strong Massive PowerCharing BankTraveller With Cord.",
+     "images": "./src/assets/phone8.jpg"
+  },
+  {
+    "id": 46,
+    "name": "Phones",
+    "price": ".299",
+    "description": "Latest smartphone with great features.",
+    "images": "./src/assets/phone1.jpg"
+  },
+  {
+    "id": 47,
+    "name": "Phones",
+    "price": ".499",
+    "description": "Enjoy your favorite shows with excellent picture quality.",
+    "images": "./src/assets/phone2.jpg"
+  },
+  {
+    "id": 48,
+    "name": "Phones",
+    "price": ".899",
+    "description": "High performance laptop for all your needs.",
+    "images": "./src/assets/phone3.jpg"
+  },
+  {
+    "id": 49,
+    "name": "Phones",
+    "price": ".99",
+    "description": "Noise-canceling headphones for an immersive experience.",
+    "images": "./src/assets/phone4.jpg"
+  },
+  {
+    "id": 50,
+    "name": "Phones",
+    "price": ".99",
+    "description": "Noise-canceling headphones for an immersive experience.",
+    "images": "./src/assets/phone5.jpg"
+  },
+  {
+    "id": 51,
+    "name": "Phones",
+    "price": ".299",
+    "description": "Latest smartphone with great features.",
+    "images": "./src/assets/phone6.jpg"
+  },
+  {
+    "id": 52,
+    "name": "Phones",
+    "price": ".499",
+    "description": "Enjoy your favorite shows with excellent picture quality.",
+    "images": "./src/assets/phone7.jpg"
+  }
+]
