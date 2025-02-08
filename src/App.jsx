@@ -7,7 +7,7 @@ import BodyBackUp from "./BodyBackup.jsx";
 import AboutBackUp from "./AbotBackUp.jsx";
 import MyServices from "./Service.jsx";
 import Testimonial from "./Testimonial.jsx";
-import Work from "./Work.jsx";
+import Working from "./Working.jsx";
 import "./global.css";
 
 function App() {
@@ -45,7 +45,7 @@ function App() {
         </section>
         
         <section id="work" ref={workRef}>
-          <Work />
+          <Working />
         </section>
       </main>
     </div>
