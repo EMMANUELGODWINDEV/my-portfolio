@@ -73,8 +73,8 @@ function Body() {
       <img src={ClientTwo} className="lg:w-12 w-10 h-10 lg:h-12 rounded-full  -ml-5 z-10 relative" />
      
       <img src={ClientThree} className="lg:w-12 w-10 h-10 lg:h-12 rounded-full -ml-5 z-10 relative" />
-     <div className="lg:w-12 w-10 h-10 lg:h-12 flex items-center justify-center z-[2] rounded-full  bg-[#68381e] -ml-5 z-40 relative">
-      <img src={ClientFour} className="lg:w-7 w-5 h-10 lg:h-12 rounded-full z-[10]   relative"/></div> 
+     <div className="lg:w-12 w-10 h-10 lg:h-12 flex items-center justify-center  rounded-full  bg-[#68381e] -ml-5 z-40 relative">
+      <img src={ClientFour} className="lg:w-7 w-5 h-10 lg:h-12 rounded-full z-[70]   relative"/></div> 
 
       <div className="flex flex-wrap items-center pt-1 lg:h-[13vh]  lg:w-[12vw]">
       <p className=" dongle-regular leading-5 text-[22px] lg:text-[25px] text-[#ababab] font-[600]">3k+ Worldwide Customers</p>
