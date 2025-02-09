@@ -118,8 +118,8 @@ setExperienceSection("Off")
             </div>
           </div>
 
-          <div className=" lg:h-[9.5vh] h-[9.5vh]  rounded-lg bg-[#121212] flex flex-row  items-center justify-center w-[68.3vw] lg:w-[25.8vw]">
-            <div className="w-[67.1vw] lg:w-[24.7vw] flex flex-row h-[8.5vh] lg:h-[7.3vh]  gap-1 lg:gap-0  items-center justify-between">
+          <div className=" lg:h-[9.5vh] h-[12vh] border border-solid  rounded-lg bg-[#121212] flex flex-row  items-center justify-center w-[69.3vw] lg:w-[26.8vw]">
+            <div className="w-[67.1vw] lg:w-[25vw] flex flex-row h-[7vh] lg:h-[7.3vh]  gap-1 lg:gap-0  items-center justify-between">
               <button id={AboutButton} onClick={AboutToggling} className="cursor-pointer rounded-lg flex items-center justify-center h-full w-[20vw] lg:w-[8.9vw] ">
                 {" "}
                 <p className="carlito    font-[600] ">
@@ -143,7 +143,7 @@ setExperienceSection("Off")
           </div>
 
           {/* The innerDiv is the main visibleHolder  the firstParentDiv is just for gap reasons */}
-          <div className=" h-[240vh] lg:h-[102vh]  w-full  flex flex-col justify-end lg:flex-row lg:items-end lg:justify-center ">
+          <div className=" h-[210vh] lg:h-[102vh]  w-full  flex flex-col justify-end lg:flex-row lg:items-end lg:justify-center ">
             <div  id= {AboutSections} className="  h-[200vh] border-[10px] border-[blue]  border-solid  lg:flex-row flex-col lg:h-[94vh] w-full    bg-[#212121]  p-3  rounded-lg  flex lg:items-center lg:justify-around justify-around">
               <div className=" h-[50vh] lg:h-[79vh] lg:w-[30vw] ">
                 <img src={NeonLaptop} className="h-full w-full  brightness-60" />
