@@ -46,7 +46,37 @@ function Working() {
           </div>
         </div>
         <div className=" w-full h-[25.5vh] flex items-center justify-center   border-b-[1.5px] border-solid">
-          <div className=" pl-9 w-full h-[17vh] flex flex-row items-center justify-around  ">
+          <div className=" flex flex-col justify-center items-center">
+          <div className="lg:w-[13vw] h-[10vh] flex items-center justify-start ">
+              <button className="lg:w-[10vw] carlito font-extrabold text-[#0c0d08] hover:text-[#9fe30e]  cursor-pointer hover:border-[1.5px] hover:border-[#9fe30e]    hover:bg-transparent text-[12.4px]  lg:text-[14.4px] lg:h-[8.5vh] bg-[#9fe30e] rounded-lg">
+                Get A Quote
+              </button>
+            </div>
+<div className=" flex-row  gap-9 flex">
+<div className="lg:w-[25vw] flex flex-row items-center pb-1 justify-end gap-2 h-[10vh] ">
+              <MdMail className="text-[#eceaea] text-[27px] mt-[0.7px]" />
+              <a
+                href="mailto:kmaxtaxx@gmail.com?body=Hello"
+                aria-label="Email address"
+                className="carlito tracking-wider font-thin text-[#eceaea] text-[10px] lg:text-[24px] decoration-[#82827f] underline underline-offset-[9px] hover:no-underline"
+              >
+                Hello kmaxtaxx@gmail.com
+              </a>
+            </div>
+            <div className="w-[25vw] flex flex-row items-center pb-1 justify-start gap-2 h-[10vh] ">
+              <PiPhoneCallFill className="text-[#eceaea] text-[31px] mt-[0.8px]" />
+              <a
+                href="tel:+2347025283450"
+                className="carlito tracking-wider font-thin text-[#eceaea] text-[10px] lg:text-[24px] decoration-[#82827f] underline underline-offset-[9px] hover:no-underline"
+              >
+               
+                +2347025283450
+              </a>
+            </div>
+
+</div>
+          </div>
+          <div className=" invisible lg:visible absolute lg:relative pl-9 w-full h-[17vh] flex flex-row items-center justify-around  ">
             <div className="w-[25vw] flex flex-row items-center pb-1 justify-end gap-2 h-[10vh] ">
               <MdMail className="text-[#eceaea] text-[27px] mt-[0.7px]" />
               <a
