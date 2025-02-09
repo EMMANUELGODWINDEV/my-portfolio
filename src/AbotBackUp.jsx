@@ -118,8 +118,8 @@ setExperienceSection("Off")
             </div>
           </div>
 
-          <div className=" lg:h-[9.5vh] h-[9vh]  rounded-lg bg-[#121212] flex flex-row  items-center justify-center w-[68.3vw] lg:w-[25.8vw]">
-            <div className="w-[67.1vw] lg:w-[24.7vw] flex flex-row h-[7vh] lg:h-[7.3vh]  gap-1 lg:gap-0  items-center justify-between">
+          <div className=" lg:h-[9.5vh] h-[9.5vh]  rounded-lg bg-[#121212] flex flex-row  items-center justify-center w-[68.3vw] lg:w-[25.8vw]">
+            <div className="w-[67.1vw] lg:w-[24.7vw] flex flex-row h-[8.5vh] lg:h-[7.3vh]  gap-1 lg:gap-0  items-center justify-between">
               <button id={AboutButton} onClick={AboutToggling} className="cursor-pointer rounded-lg flex items-center justify-center h-full w-[20vw] lg:w-[8.9vw] ">
                 {" "}
                 <p className="carlito    font-[600] ">
