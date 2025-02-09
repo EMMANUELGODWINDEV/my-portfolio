@@ -24,21 +24,21 @@ function Working() {
   return (
     <div className="bg-[#0c0d08] h-[97vh] flex-col pb-16  w-screen flex justify-end items-center ">
       <div className="h-[70vh]  w-[85vw]  flex-col items-center justify-center  flex   ">
-        <div className="h-[34vh]  flex flex-col gap-6 items-center ">
-          <div className=" border-[#4f4e4e] flex flex-row items-center justify-center  h-[5.4vh] border-solid   border-[2.5px] w-[10vw] rounded-[2vw]">
-            <p className=" dongle-regular text-[30px] text-[#9fe30e] leading-tight">
+        <div className="lg:h-[34vh]  border border-solid flex flex-col lg:gap-6 items-center ">
+          <div className=" border-[#4f4e4e]  flex flex-row items-center justify-center  lg:h-[5.4vh] border-solid   border-[2.5px] w-[27vw] lg:w-[10vw] rounded-[5vw] lg:rounded-[2vw]">
+            <p className=" dongle-regular text-[27px] lg:text-[30px] text-[#9fe30e] leading-tight">
               Work
             </p>
           </div>
 
-          <div className="  w-[56vw]  h-[23vh] flex flex-col items-center justify-center">
-            <p className="carlito text-[#acaaaa] text-[18px] mt-20  tracking-[1px]  leading-tight font-[600]">
+          <div className=" border border-solid lg:w-[56vw] h-[22vh] mb-8 lg:mb-0 lg:h-[23vh] flex flex-col items-center justify-center">
+            <p className="carlito text-[#acaaaa] lg:text-[18px] mt-20  tracking-[1px]  leading-tight font-[600]">
               Need Any Project?
             </p>
             <div className="">
               <h2
                 
-                className="dongle-regular text-[#eceaea] leading-tight  -mt-7 text-[168px]"
+                className="dongle-regular text-[#eceaea] leading-tight -mt-2 lg:-mt-7 text-[100px] lg:text-[168px]"
               >
                 Let's Start
               </h2>
