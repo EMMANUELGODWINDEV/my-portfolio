@@ -24,14 +24,14 @@ function Working() {
   return (
     <div className="bg-[#0c0d08] h-[97vh] flex-col pb-16  w-screen flex justify-end items-center ">
       <div className="h-[70vh]  w-[85vw]  flex-col items-center justify-center  flex   ">
-        <div className="lg:h-[34vh]  border border-solid flex flex-col lg:gap-6 items-center ">
+        <div className="lg:h-[34vh]  flex flex-col lg:gap-6 items-center ">
           <div className=" border-[#4f4e4e]  flex flex-row items-center justify-center  lg:h-[5.4vh] border-solid   border-[2.5px] w-[27vw] lg:w-[10vw] rounded-[5vw] lg:rounded-[2vw]">
             <p className=" dongle-regular text-[27px] lg:text-[30px] text-[#9fe30e] leading-tight">
               Work
             </p>
           </div>
 
-          <div className=" border border-solid lg:w-[56vw] h-[22vh] mb-8 lg:mb-0 lg:h-[23vh] flex flex-col items-center justify-center">
+          <div className="  lg:w-[56vw] h-[22vh] mb-8 lg:mb-0 lg:h-[23vh] flex flex-col items-center justify-center">
             <p className="carlito text-[#acaaaa] lg:text-[18px] mt-20  tracking-[1px]  leading-tight font-[600]">
               Need Any Project?
             </p>
@@ -47,13 +47,13 @@ function Working() {
         </div>
         <div className=" w-full h-[25.5vh] flex items-center justify-center   border-b-[1.5px] border-solid">
           <div className=" relative lg:absolute lg:invisible visible flex flex-col justify-center items-center">
-          <div className="lg:w-[13vw] h-[10vh] border-solid border flex items-center justify-start ">
+          <div className="lg:w-[13vw] h-[10vh]  flex items-center justify-start ">
               <button className="w-[25vw] h-[10vw] lg:w-[10vw] carlito font-extrabold text-[#0c0d08] hover:text-[#9fe30e]  cursor-pointer hover:border-[1.5px] hover:border-[#9fe30e]    hover:bg-transparent text-[12.4px]  lg:text-[14.4px] lg:h-[8.5vh] bg-[#9fe30e] rounded-lg">
                 Get A Quote
               </button>
             </div>
-<div className=" flex-row border-solid border  w-[85vw] gap-6 flex">
-<div className=" lg:w-[25vw] border-solid border flex flex-row items-center pb-1 justify-end gap-1 h-[10vh] ">
+<div className=" flex-row  w-[85vw] justify-between flex">
+<div className=" lg:w-[25vw]  flex flex-row items-center pb-1 justify-end gap-1 h-[10vh] ">
               <MdMail className="text-[#eceaea] text-[14px] lg:text-[27px] mt-[0.7px]" />
               <a
                 href="mailto:kmaxtaxx@gmail.com?body=Hello"
@@ -63,7 +63,7 @@ function Working() {
                 Hello kmaxtaxx@gmail.com
               </a>
             </div>
-            <div className="w-[32vw] border-solid border flex flex-row items-center pb-1 justify-start gap-1 h-[10vh] ">
+            <div className="w-[32vw]  flex flex-row items-center pb-1 justify-start gap-1 h-[10vh] ">
               <PiPhoneCallFill className="text-[#eceaea] text-[14px] lg:text-[31px] mt-[0.8px]" />
               <a
                 href="tel:+2347025283450"
