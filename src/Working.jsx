@@ -52,7 +52,7 @@ function Working() {
                 Get A Quote
               </button>
             </div>
-<div className=" flex-row border-solid border  w-[85vw] gap-5 flex">
+<div className=" flex-row border-solid border  w-[85vw] gap-6 flex">
 <div className=" lg:w-[25vw] border-solid border flex flex-row items-center pb-1 justify-end gap-1 h-[10vh] ">
               <MdMail className="text-[#eceaea] text-[14px] lg:text-[27px] mt-[0.7px]" />
               <a
