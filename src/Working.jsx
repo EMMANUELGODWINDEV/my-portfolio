@@ -60,7 +60,7 @@ function Working() {
                 aria-label="Email address"
                 className="carlito tracking-wider font-thin text-[#eceaea] text-[12px] lg:text-[24px] decoration-[#82827f] underline underline-offset-[9px] hover:no-underline"
               >
-                Hello kmaxtaxx@gmail.com
+                kmaxtaxx@gmail.com
               </a>
             </div>
             <div className="w-[32vw]  flex flex-row items-center pb-1 justify-start gap-1 h-[10vh] ">
