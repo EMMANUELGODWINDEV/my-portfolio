@@ -52,22 +52,22 @@ function Working() {
                 Get A Quote
               </button>
             </div>
-<div className=" flex-row   gap-9 flex">
-<div className="lg:w-[25vw] flex flex-row items-center pb-1 justify-end gap-2 h-[10vh] ">
-              <MdMail className="text-[#eceaea] text-[21px] lg:text-[27px] mt-[0.7px]" />
+<div className=" flex-row border-solid border  w-[85vw] gap-5 flex">
+<div className=" lg:w-[25vw] border-solid border flex flex-row items-center pb-1 justify-end gap-1 h-[10vh] ">
+              <MdMail className="text-[#eceaea] text-[14px] lg:text-[27px] mt-[0.7px]" />
               <a
                 href="mailto:kmaxtaxx@gmail.com?body=Hello"
                 aria-label="Email address"
-                className="carlito tracking-wider font-thin text-[#eceaea] text-[10px] lg:text-[24px] decoration-[#82827f] underline underline-offset-[9px] hover:no-underline"
+                className="carlito tracking-wider font-thin text-[#eceaea] text-[12px] lg:text-[24px] decoration-[#82827f] underline underline-offset-[9px] hover:no-underline"
               >
                 Hello kmaxtaxx@gmail.com
               </a>
             </div>
-            <div className="w-[25vw] flex flex-row items-center pb-1 justify-start gap-2 h-[10vh] ">
-              <PiPhoneCallFill className="text-[#eceaea] lg:text-[31px] mt-[0.8px]" />
+            <div className="w-[32vw] border-solid border flex flex-row items-center pb-1 justify-start gap-1 h-[10vh] ">
+              <PiPhoneCallFill className="text-[#eceaea] text-[14px] lg:text-[31px] mt-[0.8px]" />
               <a
                 href="tel:+2347025283450"
-                className="carlito tracking-wider font-thin text-[#eceaea] text-[10px] lg:text-[24px] decoration-[#82827f] underline underline-offset-[9px] hover:no-underline"
+                className="carlito tracking-wider font-thin text-[#eceaea] text-[12px] lg:text-[24px] decoration-[#82827f] underline underline-offset-[9px] hover:no-underline"
               >
                
                 +2347025283450
