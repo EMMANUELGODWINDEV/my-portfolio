@@ -212,11 +212,11 @@ setExperienceSection("Off")
               </div>
             </div>
             
-            <div   id={ExperienceSections} className="  h-[175vh] border  border-solid  lg:flex-row flex-col lg:h-[94vh] w-[85vw] absolute  flex invisible  bg-[#212121]  p-3  rounded-lg   items-center justify-around">
+            <div   id={ExperienceSections} className="  h-[200vh] border  border-solid  lg:flex-row flex-col lg:h-[94vh] w-[85vw] absolute  flex invisible  bg-[#212121]  p-3  rounded-lg   items-center justify-around">
               <div className="  h-[50vh] lg:h-[79vh] lg:w-[30vw] ">
                 <img src={TrophyNeon} className="h-full w-full  brightness-60" />
               </div>
-              <div className="lg:h-[79vh] h-[110vh] border  border-solid lg:w-[43vw]  gap-6  flex flex-col">
+              <div className="lg:h-[79vh] h-[124vh] border  border-solid lg:w-[43vw]  gap-6  flex flex-col">
                 <div className="">
                   <div className="     h-[10vh] flex items-center ">
                     <p className=" dongle-regular leading-[1] text-[38px]  lg:text-[50px] text-[#d0cfcf] ">Career Highlights </p>
@@ -243,7 +243,7 @@ setExperienceSection("Off")
                 </div>
               </div>
             </div>
-            <div   id={SkillsSections} className="  h-[175vh] border  border-solid  lg:flex-row flex-col lg:h-[94vh] w-[85vw] absolute  flex invisible  bg-[#212121]  p-3  rounded-lg   items-center justify-around">
+            <div   id={SkillsSections} className=" h-[200vh] border  border-solid  lg:flex-row flex-col lg:h-[94vh] w-[85vw] absolute  flex invisible  bg-[#212121]  p-3  rounded-lg   items-center justify-around">
               <div className=" h-[50vh] lg:h-[79vh] lg:w-[30vw] ">
                 <img src={CodeSymbolNeon} className="h-full w-full  brightness-10  drop-shadow-xl backdrop-saturate-200  -backdrop-hue-rotate-30" />
               </div>
@@ -263,7 +263,7 @@ setExperienceSection("Off")
                     
                   <div className=" carlito  flex-wrap font-[600] h-[23vh] bg-[#1c1c1c] lg:w-[41vw]  gap-2 flex-col flex p-6   rounded-lg">
       
-            <div className="flex gap-3 flex-row">    
+            <div className="absolute gap-3 hidden flex-row">    
                
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"  className="h-6 rounded-sm w-6"/>
           
