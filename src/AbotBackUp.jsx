@@ -78,7 +78,7 @@ setExperienceSection("Off")
     <>
       <div className="  brightness-125 flex bg-[#1a1a1a] items-center justify-center border-solid border  h-[302vh] lg:h-[196vh] w-screen ">
         <div className=" h-[290vh] lg:h-[174vh] border-solid border-[1px] border-[red] w-[85vw] lg:gap-4 gap-7  flex-col items-center   flex   ">
-          <div className="flex flex-col  border-solid border w-[85vw] h-[70vh] lg:h-[55vh] lg:w-[68vw]">
+          <div className="flex flex-col  gap-7 lg:gap-0 border-solid border w-[85vw] h-[70vh] lg:h-[55vh] lg:w-[68vw]">
             <div className="flex flex-col border-solid border items-center   h-[14vh] lg:h-[19vh] lg:gap-8 gap-4 lg:w-full">
               <div className=" border-[#4f4e4e] flex flex-row  items-center justify-center  lg:h-[5.4vh] border-solid   border-[2.5px] w-[27vw] lg:w-[10vw] rounded-[5vw] lg:rounded-[2vw]">
                 
@@ -93,25 +93,25 @@ setExperienceSection("Off")
               </div>
             </div>
 
-            <div className=" flex-wrap pr-1 lg:pr-0 lg:pl-2 w-full   h-[]    lg:h-[32vh]   lg:w-full">
-              <div className="container mx-auto p-[2px] md:p-2 lg:p-[3px] flex gap-0 flex-col pt-0 items-center">
-                <p className="dongle-regular text-[20px] lg:text-[30px] font-bold  text-center leading-[1.08] lg:leading-tight text-[#bebbbb]">
+            <div className=" flex-wrap pr-1 lg:pr-0 lg:pl-2 w-full   border-solid border border-[red]   lg:h-[32vh]   lg:w-full">
+              <div className="container mx-auto p-[2px] md:p-2 lg:p-[3px] flex gap-0 flex-col pt-0 lg:justify-around items-center lg:items-center">
+                <p className="dongle-regular text-[23px] lg:text-[30px] font-bold  text-center leading-[1.08] lg:leading-tight text-[#bebbbb]">
                   Welcome to my digital space! I'm{" "}
                   <span className="text-[#9fe30e]">Emmanuel Godwin</span>,
                   Frontend Developer driven by innovation
                 </p>
-                <p className="dongle-regular text-[20px] lg:text-[30px] text-center leading-[1.08] lg:leading-tight text-[#bebbbb] ">
+                <p className="dongle-regular text-[23px] lg:text-[30px] text-center leading-[1.08] lg:leading-tight text-[#bebbbb] ">
                   in the Software Industry, crafting high-quality software
                   applications that simplify lives
                 </p>
-                <p className="dongle-regular  text-[20px] lg:text-[30px] text-center leading-[1.08] lg:leading-tight text-[#bebbbb]">
+                <p className="dongle-regular  text-[23px] lg:text-[30px] text-center leading-[1.08] lg:leading-tight text-[#bebbbb]">
                   and drive business success. I'm always open to new
                   opportunities
                 </p>
-                <p className="dongle-regular text-[20px] lg:text-[30px] text-center leading-[1.08] lg:leading-tight text-[#bebbbb]">
+                <p className="dongle-regular text-[23px] lg:text-[30px] text-center leading-[1.08] lg:leading-tight text-[#bebbbb]">
                   If you have a project or startup in mind, feel free to share
                 </p>
-                <p className="dongle-regular text-[20px] lg:text-[30px] leading-[1.08] lg:leading-tight text-[#bebbbb]">
+                <p className="dongle-regular text-[23px] lg:text-[30px] leading-[1.08] lg:leading-tight text-[#bebbbb]">
                   let's create something extraordinary together!
                 </p>
               </div>
