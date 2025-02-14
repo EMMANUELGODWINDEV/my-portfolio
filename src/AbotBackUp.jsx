@@ -94,7 +94,7 @@ setExperienceSection("Off")
             </div>
 
             <div className=" flex-wrap pr-1 lg:pr-0 lg:pl-2 w-full   border-solid border border-[red]   lg:h-[32vh]   lg:w-full">
-              <div className="container mx-auto p-[2px] md:p-2 lg:p-[3px] flex gap-0 flex-col pt-0 lg:justify-around items-center lg:items-center">
+              <div className="container mx-auto p-[2px] invisible absolute lg:relative lg:visible md:p-2 lg:p-[3px] flex gap-0 flex-col pt-0 lg:justify-around items-center lg:items-center">
                 <p className="dongle-regular text-[23px] lg:text-[30px] font-bold  text-center leading-[1.08] lg:leading-tight text-[#bebbbb]">
                   Welcome to my digital space! I'm{" "}
                   <span className="text-[#9fe30e]">Emmanuel Godwin</span>,
@@ -115,6 +115,23 @@ setExperienceSection("Off")
                   let's create something extraordinary together!
                 </p>
               </div>
+              <div className="container mx-auto p-[2px] lg:invisible lg:absolute relative visible md:p-2 lg:p-[3px] flex gap-0 flex-col pt-0 lg:justify-around items-center lg:items-center">
+              <p className="dongle-regular text-[23px] lg:text-[30px] font-bold  text-center leading-[1.08] lg:leading-tight text-[#bebbbb]">
+                  Welcome to my digital space! I'm{" "}
+                  <span className="text-[#9fe30e]">Emmanuel Godwin</span>,
+                  Frontend Developer driven by innovation
+                </p>
+                <p className="dongle-regular text-[23px] lg:text-[30px] text-center leading-[1.08] lg:leading-tight text-[#bebbbb] ">
+                  in the Software Industry, crafting high-quality software
+                  applications that simplify lives
+                </p>
+                <p className="dongle-regular  text-[23px] lg:text-[30px] text-center leading-[1.08] lg:leading-tight text-[#bebbbb]">
+                  and drive business success. I'm always open to new
+                  opportunities
+                 If you have a project or startup in mind, feel free to share
+                let's create something extraordinary together!
+                </p>
+                </div>
             </div>
           </div>
 
