@@ -7,10 +7,10 @@ import { FaLinkedinIn } from "react-icons/fa6";
 import { SiUpwork } from "react-icons/si";
 import { PiGithubLogoFill } from "react-icons/pi";
 import { TbBrandFiverr } from "react-icons/tb";
-import ClientOne from "./assets/PortfolioClientsPIC1.jpg"
-import ClientTwo from "./assets/PortfolioClientsPIC4.jpg"
-import ClientThree from "./assets/mabel.jpg"
-import ClientFour from "./assets/young.avif"
+import ClientOne from "./assets/PortfolioClientsPIC1.jpg";
+import ClientTwo from "./assets/PortfolioClientsPIC4.jpg";
+import ClientThree from "./assets/mabel.jpg";
+import ClientFour from "./assets/young.avif";
 import "./global.css";
 
 function Body() {
@@ -21,14 +21,16 @@ function Body() {
           <div className=" h-[120vh] lg:h-[80vh] w-[inherit]  flex-col flex lg:flex-row justify-between      ">
             <div className=" h-[70vh] lg:h-[inherit]   lg:pt-3  bg-[#0c0d08] lg:w-[45vw]  flex flex-col justify-start items-start  ">
               <div className="flex flex-col   lg:h-[24vh]  w-[inherit]">
-                <div className="  border-solid border-b-[1.5px] pt-1 flex flex-row items-start justify-center   border-[#dddbdb] text-[#ababab] h-[13vh] lg:h-[15vh] flex-wrap w-[50vw] lg:w-[17.4vw]">
-                  <p className=" dongle-regular leading-9 text-[20px] lg:text-[25px] font-[600]">
+                <div className="border-solid border-b-[1.5px]  gap-[-14] pt-1 flex items-center justify-center border-[#dddbdb] text-[#ababab] h-[13vh] lg:h-[15vh] w-[50vw] lg:w-[17.4vw]">
+                  <p className="dongle-regular leading-9 text-[20px] lg:text-[25px] font-[600] inline-block">
                     Currently Available For Freelance Worldwide
-                  </p>{" "}
-                  <button className=" animate-color absolute mr-7 lg:mr-9 mt-[5vh] hover:border-[1px] hover:duration-[2s] hover:border-[#9fe30e] border-solid border-[#3c3b3b] flex flex-row items-center bg-transparent cursor-pointer justify-center rounded-[50%] border-[0.1px] h-8 w-8 lg:h-[6vh] lg:w-[2.7vw]">
+                  </p>
+
+                  <button className="animate-color inline-flex mr-3 mt-5 lg:mr-9 lg:mt-5 items-center justify-center bg-transparent cursor-pointer rounded-full border border-[#3c3b3b] h-8 w-13 lg:h-[6vh] lg:w-[5vw] hover:border-[#9fe30e] hover:duration-[2s] ">
                     <ImArrowUpRight2 className="text-[#9fe30e] hover:text-white" />
                   </button>
                 </div>
+
                 <div className="flex lg:items-center pt-4  items-center   h-[11vh] lg:h-[10vh]  lg:pt-9 gap-1 lg:justify-start">
                   <p className="dongle-regular   text-[white] lg:text-[37px] text-[23px]">
                     Hello,
@@ -63,23 +65,35 @@ function Body() {
                     </button>
                   </div>
 
-                  
                   <div className="flex  flex-row  pl-6 h-[10vh]  lg:h-[inherit] lg:w-[24vw] w-[inherit] gap-2 lg:gap-1 items-center justify-start  ">
-  
-      
-        <img src={ClientOne} className=" lg:w-12 w-10 h-10 lg:h-12 rounded-full -ml-5 z-10 relative" alt="" />
-     
-    
-      <img src={ClientTwo} className="lg:w-12 w-10 h-10 lg:h-12 rounded-full  -ml-5 z-10 relative" />
-     
-      <img src={ClientThree} className="lg:w-12 w-10 h-10 lg:h-12 rounded-full -ml-5 z-10 relative" />
-     <div className="lg:w-12 w-10 h-10 lg:h-12 flex items-center justify-center  rounded-full  bg-[#68381e] -ml-5 z-40 relative">
-      <img src={ClientFour} className="lg:w-7 w-5 h-10 lg:h-12 rounded-full z-[70]   relative"/></div> 
+                    <img
+                      src={ClientOne}
+                      className=" lg:w-12 w-10 h-10 lg:h-12 rounded-full -ml-5 z-10 relative"
+                      alt=""
+                    />
 
-      <div className="flex flex-wrap items-center pt-1 lg:h-[13vh]  lg:w-[12vw]">
-      <p className=" dongle-regular leading-5 text-[22px] lg:text-[25px] text-[#ababab] font-[600]">3k+ Worldwide Customers</p>
-      </div>
-    </div>
+                    <img
+                      src={ClientTwo}
+                      className="lg:w-12 w-10 h-10 lg:h-12 rounded-full  -ml-5 z-10 relative"
+                    />
+
+                    <img
+                      src={ClientThree}
+                      className="lg:w-12 w-10 h-10 lg:h-12 rounded-full -ml-5 z-10 relative"
+                    />
+                    <div className="lg:w-12 w-10 h-10 lg:h-12 flex items-center justify-center  rounded-full  bg-[#68381e] -ml-5 z-40 relative">
+                      <img
+                        src={ClientFour}
+                        className="lg:w-7 w-5 h-10 lg:h-12 rounded-full z-[70]   relative"
+                      />
+                    </div>
+
+                    <div className="flex flex-wrap items-center pt-1 lg:h-[13vh]  lg:w-[12vw]">
+                      <p className=" dongle-regular leading-5 text-[22px] lg:text-[25px] text-[#ababab] font-[600]">
+                        3k+ Worldwide Customers
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -100,8 +114,8 @@ function Body() {
                   LinkedIn
                 </p>{" "}
                 <p className="text-[#4f4e4e]  carlito-regular tracking-[1px] text-[10px] lg:text-[16px] font-[700]">
-                    See My Work
-                  </p>
+                  See My Work
+                </p>
               </div>
             </div>
             <div className="lg:flex-row flex justify-end flex-col h-[12vh] lg:h-[15vh] lg:gap-3 w-[16vw] lg:items-center ">
@@ -122,7 +136,6 @@ function Body() {
             <a href="https://github.com/EMMANUELGODWINDEV" target="_blank">
               <button className="  pt-3 h-[12vh] cursor-pointer flex lg:flex-row flex-col   lg:h-[15vh] lg:gap-3 w-[16vw]  items-center">
                 <div className="lg:h-[11vh] flex items-end justify-center w-[15vw] lg:w-[3vw]  lg:gap-3 ">
-                 
                   <PiGithubLogoFill className=" lg:text-[58px] text-[20px] text-[#9e9d9d]" />
                 </div>
                 <div className="h-[6vh] flex-col lg:h-[11vh] flex items-start justify-center pt-1  lg:w-[10vw] ">

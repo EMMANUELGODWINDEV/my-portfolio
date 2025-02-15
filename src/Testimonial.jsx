@@ -25,7 +25,7 @@ function Testimonial() {
       <div className="h-[93vh]  w-[85vw] gap-3  flex-col items-center justify-center  flex   ">
         <div className="flex flex-col   h-[19vh] lg:w-[68vw]">
           <div className="flex flex-col items-center   h-[19vh] gap-8 w-full">
-            <div className=" border-[#4f4e4e] flex flex-row items-center justify-center  lg:h-[5.4vh] border-solid   border-[2.5px] w-[29vw] lg:w-[10vw] rounded-[5vw] lg:rounded-[2vw]">
+            <div className=" border-[#4f4e4e] flex flex-row items-center justify-center  lg:h-[5.4vh] border-solid   border-[2.5px] w-[30vw] lg:w-[10vw] rounded-[5vw] lg:rounded-[2vw]">
               {" "}
               <p className=" dongle-regular text-[27px] lg:text-[30px] text-[#9fe30e] leading-tight">
                 Testimonial
