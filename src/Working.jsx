@@ -48,7 +48,7 @@ function Working() {
         <div className=" w-full h-[25.5vh] flex items-center justify-center   border-b-[1.5px] border-solid">
           <div className=" relative lg:absolute lg:invisible visible flex flex-col justify-center items-center">
           <div className="lg:w-[13vw] h-[10vh]  flex items-center justify-start ">
-              <button className="w-[28vw] h-[10vh] lg:w-[10vw] carlito font-extrabold text-[#0c0d08] hover:text-[#9fe30e]  cursor-pointer hover:border-[1.5px] hover:border-[#9fe30e]    hover:bg-transparent text-[12.4px]  lg:text-[14.4px] lg:h-[8.5vh] bg-[#9fe30e] rounded-lg">
+              <button className="w-[30vw] h-[7.5vh] lg:w-[10vw] carlito font-extrabold text-[#0c0d08] hover:text-[#9fe30e]  cursor-pointer hover:border-[1.5px] hover:border-[#9fe30e]    hover:bg-transparent text-[12.4px]  lg:text-[14.4px] lg:h-[8.5vh] bg-[#9fe30e] rounded-lg">
                 Get A Quote
               </button>
             </div>
