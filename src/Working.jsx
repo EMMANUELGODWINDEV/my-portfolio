@@ -105,7 +105,7 @@ function Working() {
           </div>
         </div>
       </div>
-      <div className=" gap-3 h-20 w-full flex flex-col items-center justify-center">
+      <div className=" gap-6 lg:gap-3 h-20 w-full flex flex-col items-center justify-center">
         <div className=" gap-3 flex h-9 w-full flex-row items-center justify-center">
           <RoundedFull icon={<RiTwitterXFill color="#b6b3b3" />} />
           <RoundedFull icon={<FaLinkedinIn color="#b6b3b3" />} />
