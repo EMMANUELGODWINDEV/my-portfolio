@@ -48,12 +48,12 @@ function Working() {
         <div className=" w-full h-[25.5vh] flex items-center justify-center   border-b-[1.5px] border-solid">
           <div className=" relative lg:absolute lg:invisible visible flex flex-col justify-center items-center">
           <div className="lg:w-[13vw] h-[10vh]  flex items-center justify-start ">
-              <button className="w-[30vw] h-[7.5vh] lg:w-[10vw] carlito font-extrabold text-[#0c0d08] hover:text-[#9fe30e]  cursor-pointer hover:border-[1.5px] hover:border-[#9fe30e]    hover:bg-transparent text-[12.4px]  lg:text-[14.4px] lg:h-[8.5vh] bg-[#9fe30e] rounded-lg">
+              <button className="w-[30vw] h-[7vh] lg:w-[10vw] carlito font-extrabold text-[#0c0d08] hover:text-[#9fe30e]  cursor-pointer hover:border-[1.5px] hover:border-[#9fe30e]    hover:bg-transparent text-[12.4px]  lg:text-[14.4px] lg:h-[8.5vh] bg-[#9fe30e] rounded-lg">
                 Get A Quote
               </button>
             </div>
 <div className=" flex-row  w-[85vw] justify-between flex">
-<div className=" lg:w-[25vw]  flex flex-row items-center pb-1 justify-end gap-1 h-[10vh] ">
+<div className=" lg:w-[25vw]  flex flex-row items-center pt-2 justify-end gap-1 h-[10vh] ">
               <MdMail className="text-[#eceaea] text-[14px] lg:text-[27px] mt-[0.7px]" />
               <a
                 href="mailto:kmaxtaxx@gmail.com?body=Hello"
@@ -63,7 +63,7 @@ function Working() {
                 kmaxtaxx@gmail.com
               </a>
             </div>
-            <div className="w-[32vw]  flex flex-row items-center pb-1 justify-start gap-1 h-[10vh] ">
+            <div className="w-[32vw]  flex flex-row items-center pt-2 justify-start gap-1 h-[10vh] ">
               <PiPhoneCallFill className="text-[#eceaea] text-[14px] lg:text-[31px] mt-[0.8px]" />
               <a
                 href="tel:+2347025283450"
@@ -105,7 +105,7 @@ function Working() {
           </div>
         </div>
       </div>
-      <div className=" gap-6 lg:gap-3 h-20 w-full flex flex-col items-center justify-center">
+      <div className=" gap-3 h-20 w-full flex flex-col items-center justify-center">
         <div className=" gap-3 flex h-9 w-full flex-row items-center justify-center">
           <RoundedFull icon={<RiTwitterXFill color="#b6b3b3" />} />
           <RoundedFull icon={<FaLinkedinIn color="#b6b3b3" />} />
