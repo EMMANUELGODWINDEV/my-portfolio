@@ -76,24 +76,24 @@ setExperienceSection("Off")
 
   return (
     <>
-      <div className="  brightness-125 flex bg-[#1a1a1a] items-center justify-center border-solid border  h-[302vh] lg:h-[196vh] w-screen ">
-        <div className=" h-[290vh] lg:h-[174vh] border-solid border-[1px] border-[red] w-[85vw] lg:gap-4 gap-7  flex-col items-center   flex   ">
-          <div className="flex flex-col  gap-7 lg:gap-0 border-solid border w-[85vw] h-[70vh] lg:h-[55vh] lg:w-[68vw]">
-            <div className="flex flex-col border-solid border items-center   h-[14vh] lg:h-[19vh] lg:gap-8 gap-4 lg:w-full">
+      <div className="  brightness-125 flex bg-[#1a1a1a] items-center justify-center  h-[302vh] lg:h-[196vh] w-screen ">
+        <div className=" h-[290vh] lg:h-[174vh]  w-[85vw] lg:gap-4 gap-7  flex-col items-center   flex   ">
+          <div className="flex flex-col  gap-7 lg:gap-0  w-[85vw] h-[70vh] lg:h-[55vh] lg:w-[68vw]">
+            <div className="flex flex-col  items-center   h-[14vh] lg:h-[19vh] lg:gap-8 gap-4 lg:w-full">
               <div className=" border-[#4f4e4e] flex flex-row  items-center justify-center  lg:h-[5.4vh] border-solid   border-[2.5px] w-[27vw] lg:w-[10vw] rounded-[5vw] lg:rounded-[2vw]">
                 
                 <p className=" dongle-regular text-[27px] lg:text-[30px] text-[#9fe30e] leading-tight">
                   About me
                 </p>
               </div>
-              <div className="  flex flex-row  items-center justify-center  lg:w-[40vw] leading-tight lg:h-[7vh]  ">
+              <div className="  flex flex-row  items-center justify-center text-center lg:w-[40vw] leading-[1] lg:leading-tight lg:h-[7vh]  ">
                 <h2 className="dongle-regular text-[#dddbdb] text-[35px] lg:text-[58px]">
                   Explore The Innovation & More
                 </h2>
               </div>
             </div>
 
-            <div className=" flex-wrap pr-1 lg:pr-0 lg:pl-2 w-full   border-solid border border-[red]   lg:h-[32vh]   lg:w-full">
+            <div className=" flex-wrap pr-1 lg:pr-0 lg:pl-2 w-full      lg:h-[32vh]   lg:w-full">
               <div className="container mx-auto p-[2px] invisible absolute lg:relative lg:visible md:p-2 lg:p-[3px] flex gap-0 flex-col pt-0 lg:justify-around items-center lg:items-center">
                 <p className="dongle-regular text-[23px] lg:text-[30px] font-bold  text-center leading-[1.08] lg:leading-tight text-[#bebbbb]">
                   Welcome to my digital space! I'm{" "}
@@ -135,7 +135,7 @@ setExperienceSection("Off")
             </div>
           </div>
 
-          <div className=" lg:h-[9.5vh] h-[12vh] border border-solid  rounded-lg bg-[#121212] flex flex-row  items-center justify-center w-[72.3vw] lg:w-[26.8vw]">
+          <div className=" lg:h-[9.5vh] h-[12vh]  rounded-lg bg-[#121212] flex flex-row  items-center justify-center w-[72.3vw] lg:w-[26.8vw]">
             <div className="w-[67.1vw] lg:w-[25vw] flex flex-row h-[7vh] lg:h-[7.3vh]  gap-1 lg:gap-0  items-center justify-between">
               <button id={AboutButton} onClick={AboutToggling} className="cursor-pointer rounded-lg flex items-center justify-center h-full w-[20vw] lg:w-[8.9vw] ">
                 {" "}
@@ -161,11 +161,11 @@ setExperienceSection("Off")
 
           {/* The innerDiv is the main visibleHolder  the firstParentDiv is just for gap reasons */}
           <div className=" h-[210vh] lg:h-[102vh]  w-full  flex flex-col justify-end lg:flex-row lg:items-end lg:justify-center ">
-            <div  id= {AboutSections} className="  h-[200vh] border-[1px] border-[blue]  border-solid  lg:flex-row flex-col lg:h-[94vh] w-full    bg-[#212121]  p-3  rounded-lg  flex lg:items-center lg:justify-around justify-around">
+            <div  id= {AboutSections} className="  h-[200vh]  lg:flex-row flex-col lg:h-[94vh] w-full    bg-[#212121]  p-3  rounded-lg  flex lg:items-center lg:justify-around justify-around">
               <div className=" h-[50vh] lg:h-[79vh] lg:w-[30vw] ">
                 <img src={NeonLaptop} className="h-full w-full  brightness-60" />
               </div>
-              <div className="lg:h-[79vh] h-[124vh] border  border-solid  lg:w-[43vw]  gap-6  flex flex-col">
+              <div className="lg:h-[79vh] h-[124vh]   lg:w-[43vw]  gap-6  flex flex-col">
                 <div className="">
                   <div className="     h-[10vh] flex items-center ">
                     <p className=" dongle-regular leading-[1] text-[38px] lg:text-[50px] text-[#d0cfcf] ">Personal Info</p>
@@ -229,11 +229,11 @@ setExperienceSection("Off")
               </div>
             </div>
             
-            <div   id={ExperienceSections} className="  h-[200vh] border  border-solid  lg:flex-row flex-col lg:h-[94vh] w-[85vw] absolute  flex invisible  bg-[#212121]  p-3  rounded-lg   items-center justify-around">
+            <div   id={ExperienceSections} className="  h-[200vh]   lg:flex-row flex-col lg:h-[94vh] w-[85vw] absolute  flex invisible  bg-[#212121]  p-3  rounded-lg   items-center justify-around">
               <div className="  h-[50vh] lg:h-[79vh] lg:w-[30vw] ">
                 <img src={TrophyNeon} className="h-full w-full  brightness-60" />
               </div>
-              <div className="lg:h-[79vh] h-[124vh] border  border-solid lg:w-[43vw]  gap-6  flex flex-col">
+              <div className="lg:h-[79vh] h-[124vh]  lg:w-[43vw]  gap-6  flex flex-col">
                 <div className="">
                   <div className="     h-[10vh] flex items-center ">
                     <p className=" dongle-regular leading-[1] text-[38px]  lg:text-[50px] text-[#d0cfcf] ">Career Highlights </p>
@@ -260,7 +260,7 @@ setExperienceSection("Off")
                 </div>
               </div>
             </div>
-            <div   id={SkillsSections} className=" h-[200vh] border  border-solid  lg:flex-row flex-col lg:h-[94vh] w-[85vw] absolute  flex invisible  bg-[#212121]  p-3  rounded-lg   items-center justify-around">
+            <div   id={SkillsSections} className=" h-[200vh]   lg:flex-row flex-col lg:h-[94vh] w-[85vw] absolute  flex invisible  bg-[#212121]  p-3  rounded-lg   items-center justify-around">
               <div className=" h-[50vh] lg:h-[79vh] lg:w-[30vw] ">
                 <img src={CodeSymbolNeon} className="h-full w-full  brightness-10  drop-shadow-xl backdrop-saturate-200  -backdrop-hue-rotate-30" />
               </div>

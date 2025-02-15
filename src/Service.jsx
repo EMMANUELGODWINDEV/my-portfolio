@@ -14,7 +14,7 @@ function MyServices() {
                   Services
                 </p>
               </div>
-              <div className=" flex flex-row  border border-solid  items-center justify-center  w-full lg:w-[40vw] leading-tight h-[7vh]  ">
+              <div className=" flex flex-row  border border-solid  items-center justify-center text-center  w-full lg:w-[40vw] leading-tight h-[7vh]  ">
                 <h2 className="dongle-regular text-[#dddbdb]  text-[35px] lg:text-[58px]">
                   My Special Services
                 </h2>
