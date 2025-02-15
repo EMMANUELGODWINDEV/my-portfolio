@@ -65,8 +65,28 @@ body {
     border: 1px solid #d8ff85;
     box-shadow: #9fe30e 1px 2px 4px 5px;
     }
+  } 
+    
+  .animate-scroll {
+    animation: scroll 100s linear infinite;
+   
+  }
+  @keyframes scroll {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
   }
   
+
+  
+ 
+  
+
+
+
   html {
   scroll-behavior: smooth;
  
