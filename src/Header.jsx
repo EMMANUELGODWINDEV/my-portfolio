@@ -1,6 +1,7 @@
 import React from "react";
 import { IoRocketSharp } from "react-icons/io5";
 import { useEffect, useState } from "react";
+import AnimatedMenuIcon from "./AnimatedMenuIcon.jsx"
 // import "./header.css"
 import "./global.css";
 
@@ -100,6 +101,7 @@ function Header() {
                 </button>
               </div>
             </div>
+            <div className="visible lg:invisible lg:absolute relative flex items-center justify-center max-h-min w-[14vw]"><AnimatedMenuIcon/></div>
           </div>
         </div>
       </div>
