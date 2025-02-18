@@ -18,7 +18,7 @@ function App() {
   const testimonialsRef = useRef(null);
 
   return (
-    <div className="overflow-auto bg-[#0c0d08] ">
+    <div className="overflow-auto bg-[#0e0f09] ">
       <Header
         homeBodyRef={homeBodyRef}
         aboutRef={aboutRef}
