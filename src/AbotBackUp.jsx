@@ -1,5 +1,5 @@
 import React from "react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { FaTelegramPlane } from "react-icons/fa";
 import { PiMediumLogoFill } from "react-icons/pi";
 import { FaLinkedinIn } from "react-icons/fa6";
@@ -7,72 +7,111 @@ import { SiUpwork } from "react-icons/si";
 import { PiGithubLogoFill } from "react-icons/pi";
 import { TbBrandFiverr } from "react-icons/tb";
 import { FaXTwitter } from "react-icons/fa6";
-import NeonLaptop  from "./assets/Lemonlaptop.png"
-import TrophyNeon from "./assets/Trophy.jpg"
-import CodeSymbolNeon from "./assets/codeSymbol.jpeg"
+import NeonLaptop from "./assets/Lemonlaptop.png";
+import TrophyNeon from "./assets/Trophy.jpg";
+import CodeSymbolNeon from "./assets/codeSymbol.jpeg";
 
 function AboutBackUp() {
+  const SlidesSkillSet = [
+    <TechnicalSkillSet
+      SkillName="JavaScript"
+      SkillLogo={
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+          className="h-[10vh] rounded-lg  "
+        />
+      }
+      SkillUseCase="WebTool"
+      key="slide-1"
+    />,
+    <TechnicalSkillSet
+      SkillName="Tailwind CSS"
+      SkillLogo={
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
+          className="h-[10vh]"
+        />
+      }
+       SkillUseCase="StylingTool"
+      key="slide-2"
+    />,
+    <TechnicalSkillSet
+    SkillName="Vite"
+    SkillLogo={
+      <img
+      src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg"
+      className="h-[10vh]"
+    />
+    }
+     SkillUseCase="Bundling"
+    
+    key="slide-3" />,
+    <TechnicalSkillSet
+    SkillName="Vite"
+    SkillLogo={
+      <img
+      src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg"
+      className="h-[10vh]"
+    />
+    }
+     SkillUseCase="Bundling"
+    
+    key="slide-3" />,
+  ];
 
-  const [AboutButton, setAboutButton] = useState("current")
+  const [SkillCurrentIndex, setSkillCurrentIndex] = useState(0);
 
-const [ExperienceButton, setExperienceButton] = useState("previous")
-const [SkillsButton, setSkillsButton] = useState("previous")
-const [AboutSections, setAboutSections] = useState("Active")
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setSkillCurrentIndex(
+        (prevIndex) => (prevIndex + 1) % SlidesSkillSet.length
+      );
+    }, 20000);
+    return () => clearInterval(interval);
+  }, [SlidesSkillSet.length]);
 
-const [ExperienceSections, setExperienceSection] = useState("Off")
-const [SkillsSections, setSkillsSections] = useState("Off")
+  const [AboutButton, setAboutButton] = useState("current");
 
-const  AboutToggling = () => {
-  setAboutSections ((curr) => (curr === "Off" ? "Active" : "Active"));
-  setAboutButton((prr) => (prr === "previous" ? "current" : "current"));
+  const [ExperienceButton, setExperienceButton] = useState("previous");
+  const [SkillsButton, setSkillsButton] = useState("previous");
+  const [AboutSections, setAboutSections] = useState("Active");
 
- 
-  setExperienceButton("previous")
-  setSkillsButton("previous")
+  const [ExperienceSections, setExperienceSection] = useState("Off");
+  const [SkillsSections, setSkillsSections] = useState("Off");
 
+  const AboutToggling = () => {
+    setAboutSections((curr) => (curr === "Off" ? "Active" : "Active"));
+    setAboutButton((prr) => (prr === "previous" ? "current" : "current"));
 
-  
-  setExperienceSection("Off")
-  setSkillsSections("Off")
-};
+    setExperienceButton("previous");
+    setSkillsButton("previous");
 
+    setExperienceSection("Off");
+    setSkillsSections("Off");
+  };
 
-const ExperienceToggling  = () => {
-setExperienceSection ((curr) => (curr === "Off" ? "Active" : "Active"));
-setExperienceButton((prr) => (prr === "previous" ? "current" : "current"));
+  const ExperienceToggling = () => {
+    setExperienceSection((curr) => (curr === "Off" ? "Active" : "Active"));
+    setExperienceButton((prr) => (prr === "previous" ? "current" : "current"));
 
+    setSkillsButton("previous");
+    setAboutButton("previous");
 
-setSkillsButton("previous")
-setAboutButton("previous")
+    setAboutSections("Off");
 
+    setSkillsSections("Off");
+  };
+  const SkillsToggling = () => {
+    setSkillsSections((curr) => (curr === "Off" ? "Active" : "Active"));
+    setSkillsButton((prr) => (prr === "previous" ? "current" : "current"));
 
+    setExperienceButton("previous");
+    setAboutButton("previous");
 
-  setAboutSections ("Off")
-  
-  setSkillsSections("Off")
-}
-const SkillsToggling  = () => {
-  setSkillsSections ((curr) => (curr === "Off" ? "Active" : "Active"));
-  setSkillsButton((prr) => (prr === "previous" ? "current" : "current"));
+    setAboutSections("Off");
 
-
-
- 
-  setExperienceButton("previous")
-  setAboutButton("previous")
-
-
-
-
-
-setAboutSections ("Off")
-
-setExperienceSection("Off")
-
-}
-
-
-
+    setExperienceSection("Off");
+  };
 
   return (
     <>
@@ -81,7 +120,6 @@ setExperienceSection("Off")
           <div className="flex flex-col  gap-7 lg:gap-0  w-[85vw] h-[70vh] lg:h-[55vh] lg:w-[68vw]">
             <div className="flex flex-col  items-center   h-[14vh] lg:h-[19vh] lg:gap-8 gap-4 lg:w-full">
               <div className=" border-[#4f4e4e] flex flex-row  items-center justify-center  lg:h-[5.4vh] border-solid   border-[2.5px] w-[27vw] lg:w-[10vw] rounded-[5vw] lg:rounded-[2vw]">
-                
                 <p className=" dongle-regular text-[27px] lg:text-[30px] text-[#9fe30e] leading-tight">
                   About me
                 </p>
@@ -116,7 +154,7 @@ setExperienceSection("Off")
                 </p>
               </div>
               <div className="container mx-auto p-[2px] lg:invisible lg:absolute relative visible md:p-2 lg:p-[3px] flex gap-0 flex-col pt-0 lg:justify-around items-center lg:items-center">
-              <p className="dongle-regular text-[23px] lg:text-[30px] font-bold  text-center leading-[1.08] lg:leading-tight text-[#bebbbb]">
+                <p className="dongle-regular text-[23px] lg:text-[30px] font-bold  text-center leading-[1.08] lg:leading-tight text-[#bebbbb]">
                   Welcome to my digital space! I'm{" "}
                   <span className="text-[#9fe30e]">Emmanuel Godwin</span>,
                   Frontend Developer driven by innovation
@@ -127,48 +165,61 @@ setExperienceSection("Off")
                 </p>
                 <p className="dongle-regular  text-[23px] lg:text-[30px] text-center leading-[1.08] lg:leading-tight text-[#bebbbb]">
                   and drive business success. I'm always open to new
-                  opportunities
-                 If you have a project or startup in mind, feel free to share
-                let's create something extraordinary together!
+                  opportunities If you have a project or startup in mind, feel
+                  free to share let's create something extraordinary together!
                 </p>
-                </div>
+              </div>
             </div>
           </div>
 
           <div className=" lg:h-[9.5vh] h-[12vh]  rounded-lg bg-[#121212] flex flex-row  items-center justify-center w-[72.3vw] lg:w-[26.8vw]">
             <div className="w-[67.1vw] lg:w-[25vw] flex flex-row h-[7vh] lg:h-[7.3vh]  gap-1 lg:gap-0  items-center justify-between">
-              <button id={AboutButton} onClick={AboutToggling} className="cursor-pointer rounded-lg flex items-center justify-center h-full w-[20vw] lg:w-[8.9vw] ">
+              <button
+                id={AboutButton}
+                onClick={AboutToggling}
+                className="cursor-pointer rounded-lg flex items-center justify-center h-full w-[20vw] lg:w-[8.9vw] "
+              >
                 {" "}
-                <p className="carlito    font-[600] ">
-                  About
-                </p>
+                <p className="carlito    font-[600] ">About</p>
               </button>
-              
-              <button  id={ExperienceButton} onClick={ExperienceToggling} className="cursor-pointer rounded-lg flex items-center justify-center w-[25vw] h-full lg:w-[8.9vw] ">
+
+              <button
+                id={ExperienceButton}
+                onClick={ExperienceToggling}
+                className="cursor-pointer rounded-lg flex items-center justify-center w-[25vw] h-full lg:w-[8.9vw] "
+              >
                 {" "}
-                <p className="carlito  font-[600] ">
-                  Experience
-                </p>
+                <p className="carlito  font-[600] ">Experience</p>
               </button>
-              <button id={SkillsButton} onClick={SkillsToggling} className="  cursor-pointer rounded-lg flex items-center justify-center h-full w-[20vw]  lg:w-[8.8vw] ">
+              <button
+                id={SkillsButton}
+                onClick={SkillsToggling}
+                className="  cursor-pointer rounded-lg flex items-center justify-center h-full w-[20vw]  lg:w-[8.8vw] "
+              >
                 {" "}
-                <p className="carlito  font-[600] ">
-                  Skills
-                </p>
+                <p className="carlito  font-[600] ">Skills</p>
               </button>
             </div>
           </div>
 
           {/* The innerDiv is the main visibleHolder  the firstParentDiv is just for gap reasons */}
           <div className=" h-[210vh] lg:h-[102vh]  w-full  flex flex-col justify-end lg:flex-row lg:items-end lg:justify-center ">
-            <div  id= {AboutSections} className="  h-[200vh]  lg:flex-row flex-col lg:h-[94vh] w-full    bg-[#212121]  p-3  rounded-lg  flex lg:items-center lg:justify-around justify-around">
+            <div
+              id={AboutSections}
+              className="  h-[200vh]  lg:flex-row flex-col lg:h-[94vh] w-full    bg-[#212121]  p-3  rounded-lg  flex lg:items-center lg:justify-around justify-around"
+            >
               <div className=" h-[50vh] lg:h-[79vh] lg:w-[30vw] ">
-                <img src={NeonLaptop} className="h-full w-full  brightness-60" />
+                <img
+                  src={NeonLaptop}
+                  className="h-full w-full  brightness-60"
+                />
               </div>
               <div className="lg:h-[79vh] h-[124vh]   lg:w-[43vw]  gap-6  flex flex-col">
                 <div className="">
                   <div className="     h-[10vh] flex items-center ">
-                    <p className=" dongle-regular leading-[1] text-[38px] lg:text-[50px] text-[#d0cfcf] ">Personal Info</p>
+                    <p className=" dongle-regular leading-[1] text-[38px] lg:text-[50px] text-[#d0cfcf] ">
+                      Personal Info
+                    </p>
                   </div>
                   <div className="  lg:w-[41.6vw]  lg:h-[22vh]">
                     <p className="carlito text-[#b4b0b0] text-[14px] lg:text-[17px] font-[500]">
@@ -177,7 +228,9 @@ setExperienceSection("Off")
                       passion for building innovative solutions that make a real
                       impact. When I'm not coding, you can find me exploring new
                       technologies, attending industry events, or mentoring
-                      junior developers. <br  className=" lg:visible invisible"/> Here's a little more about me:
+                      junior developers.{" "}
+                      <br className=" lg:visible invisible" /> Here's a little
+                      more about me:
                     </p>
                   </div>
                 </div>
@@ -228,19 +281,34 @@ setExperienceSection("Off")
                 </div>
               </div>
             </div>
-            
-            <div   id={ExperienceSections} className="  h-[200vh]   lg:flex-row flex-col lg:h-[94vh] w-[85vw] absolute  flex invisible  bg-[#212121]  p-3  rounded-lg   items-center justify-around">
+
+            <div
+              id={ExperienceSections}
+              className="  h-[200vh]   lg:flex-row flex-col lg:h-[94vh] w-[85vw] absolute  flex invisible  bg-[#212121]  p-3  rounded-lg   items-center justify-around"
+            >
               <div className="  h-[50vh] lg:h-[79vh] lg:w-[30vw] ">
-                <img src={TrophyNeon} className="h-full w-full  brightness-60" />
+                <img
+                  src={TrophyNeon}
+                  className="h-full w-full  brightness-60"
+                />
               </div>
               <div className="lg:h-[79vh] h-[124vh]  lg:w-[43vw]  gap-6  flex flex-col">
                 <div className="">
                   <div className="     h-[10vh] flex items-center ">
-                    <p className=" dongle-regular leading-[1] text-[38px]  lg:text-[50px] text-[#d0cfcf] ">Career Highlights </p>
+                    <p className=" dongle-regular leading-[1] text-[38px]  lg:text-[50px] text-[#d0cfcf] ">
+                      Career Highlights{" "}
+                    </p>
                   </div>
                   <div className="  lg:w-[41.6vw]  lg:h-[22vh]">
                     <p className="carlito text-[#b4b0b0] text-[14px]  lg:text-[17px] font-[500]">
-                    Transformational frontend developer with 3+ years of experience in crafting scalable, responsive, and high-performance  applications that delight users and drive business results. Proven track record of delivering projects on time, with a strong focus on quality, usability, and accessibility. <br  className=" lg:visible invisible"/> Here are some key achievements:
+                      Transformational frontend developer with 3+ years of
+                      experience in crafting scalable, responsive, and
+                      high-performance applications that delight users and drive
+                      business results. Proven track record of delivering
+                      projects on time, with a strong focus on quality,
+                      usability, and accessibility.{" "}
+                      <br className=" lg:visible invisible" /> Here are some key
+                      achievements:
                     </p>
                   </div>
                 </div>
@@ -250,81 +318,148 @@ setExperienceSection("Off")
                       subject="56% "
                       details="increased user engagement"
                     />
-                    <PersonalInfo subject="95%" details="improved app responsiveness" />
+                    <PersonalInfo
+                      subject="95%"
+                      details="improved app responsiveness"
+                    />
                   </div>
                   <div className=" flex lg:flex-row flex-col gap-6 w-full lg:h-[19vh] items-center  justify-start">
-                    <PersonalInfo subject="30%" details=" Increased Sales Performance" />
+                    <PersonalInfo
+                      subject="30%"
+                      details=" Increased Sales Performance"
+                    />
 
-<PersonalInfo subject="89%" details="   Code quality & maintainability" />
+                    <PersonalInfo
+                      subject="89%"
+                      details="   Code quality & maintainability"
+                    />
                   </div>
                 </div>
               </div>
             </div>
-            <div   id={SkillsSections} className=" h-[200vh]   lg:flex-row flex-col lg:h-[94vh] w-[85vw] absolute  flex invisible  bg-[#212121]  p-3  rounded-lg   items-center justify-around">
+            <div
+              id={SkillsSections}
+              className=" h-[200vh]   lg:flex-row flex-col lg:h-[94vh] w-[85vw] absolute  flex invisible  bg-[#212121]  p-3  rounded-lg   items-center justify-around"
+            >
               <div className=" h-[50vh] lg:h-[79vh] lg:w-[30vw] ">
-                <img src={CodeSymbolNeon} className="h-full w-full  brightness-10  drop-shadow-xl backdrop-saturate-200  -backdrop-hue-rotate-30" />
+                <img
+                  src={CodeSymbolNeon}
+                  className="h-full w-full  brightness-10  drop-shadow-xl backdrop-saturate-200  -backdrop-hue-rotate-30"
+                />
               </div>
               <div className="lg:h-[79vh] h-[110vh] lg:w-[43vw]  gap-8 lg:gap-4  flex flex-col">
                 <div className="">
                   <div className="  h-[10vh] flex items-center ">
-                    <p className=" dongle-regular leading-[1] text-[38px]  lg:text-[50px] text-[#d0cfcf] ">Technical Skills </p>
+                    <p className=" dongle-regular leading-[1] text-[38px]  lg:text-[50px] text-[#d0cfcf] ">
+                      Technical Skills{" "}
+                    </p>
                   </div>
                   <div className="  lg:w-[41.6vw]  lg:h-[22vh]">
                     <p className="carlito text-[#b4b0b0] text-[14px]  lg:text-[17px] font-[500]">
-                    Designing, developing, and delivering solutions across multiple domains. Staying current with industry trends, best practices, and emerging technologies. Continuously enhancing my skillset to drive innovation and excellence. <br  className=" lg:visible invisible"/> My expertise includes:
+                      Designing, developing, and delivering solutions across
+                      multiple domains. Staying current with industry trends,
+                      best practices, and emerging technologies. Continuously
+                      enhancing my skillset to drive innovation and excellence.{" "}
+                      <br className=" lg:visible invisible" /> My expertise
+                      includes:
                     </p>
                   </div>
                 </div>
                 <div className=" lg:h-[42vh] lg:gap-4  gap-5 flex flex-col items-center justify-around">
                   <div className=" flex gap-6 w-full lg:flex-row flex-col lg:h-[19vh] items-center justify-start">
-                    
-                  <div className=" carlito  flex-wrap font-[600] h-[23vh] bg-[#1c1c1c] lg:w-[41vw]  gap-2 flex-col flex p-6   rounded-lg">
-      
-            <div className="absolute gap-3 hidden flex-row">    
-               
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"  className="h-6 rounded-sm w-6"/>
-          
-               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" className="h-6 rounded-sm w-6" />
-          
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" className="h-6 rounded-sm w-6" />
-          
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"  className="h-6 rounded-sm w-6" />
-          
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg"  className="h-6 rounded-sm w-6" />
-          
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original-wordmark.svg"  className="h-6 rounded-sm w-6" />
-          
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/eslint/eslint-original.svg" className="h-6 rounded-sm w-6"  />
-          
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg"  className="h-6 rounded-sm w-6" />
-          
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/netlify/netlify-original.svg" className="h-6 rounded-sm w-6"  />
-          
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"  className="h-6 rounded-sm w-6" />
-       
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" className="h-6 rounded-sm w-6"  />
-          
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" className="h-6 rounded-sm w-6" />
-          
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" className="h-6 rounded-sm w-6" />
-          
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" className="h-6 rounded-sm w-6" />
-          
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/webpack/webpack-original.svg" className="h-6 rounded-sm w-6"  />
-          
-       
-          </div> 
+                   <div className="absolute gap-3 hidden flex-row">
+                        <img
+                          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
+                          className="h-6 rounded-sm w-6"
+                        />
 
-      <p className="leading-tight dongle-regular text-[23px] text-[#bebbbb]">
-        fd
-      </p>
-    </div>
-                   
+                        <img
+                          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+                          className="h-6 rounded-sm w-6"
+                        />
+
+                        <img
+                          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"
+                          className="h-6 rounded-sm w-6"
+                        />
+
+                        <img
+                          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
+                          className="h-6 rounded-sm w-6"
+                        />
+
+                        <img
+                          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg"
+                          className="h-6 rounded-sm w-6"
+                        />
+
+                        <img
+                          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original-wordmark.svg"
+                          className="h-6 rounded-sm w-6"
+                        />
+
+                        <img
+                          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/eslint/eslint-original.svg"
+                          className="h-6 rounded-sm w-6"
+                        />
+
+                        <img
+                          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg"
+                          className="h-6 rounded-sm w-6"
+                        />
+
+                        <img
+                          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/netlify/netlify-original.svg"
+                          className="h-6 rounded-sm w-6"
+                        />
+
+                        <img
+                          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
+                          className="h-6 rounded-sm w-6"
+                        />
+
+                        <img
+                          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"
+                          className="h-6 rounded-sm w-6"
+                        />
+
+                        <img
+                          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg"
+                          className="h-6 rounded-sm w-6"
+                        />
+
+                        <img
+                          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg"
+                          className="h-6 rounded-sm w-6"
+                        />
+
+                        <img
+                          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg"
+                          className="h-6 rounded-sm w-6"
+                        />
+
+                        <img
+                          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/webpack/webpack-original.svg"
+                          className="h-6 rounded-sm w-6"
+                        />
+                      </div>
+
+                    
+          {SlidesSkillSet[SkillCurrentIndex]}
+
+                  </div>
+                  <div className=" shadow-lg h-14 w-36 bg-[#1c1c1c] flex flex-row justify-between pl-2 pr-2 items-center rounded-[7vw]">
+             
+              <button className="h-10 w-10 bg-[#212121] rounded-full shadow-lg "></button>
+              <button className=" h-10 w-10 bg-[#212121] rounded-full shadow-lg  "></button>
+              
                   </div>
                   <div className=" flex gap-6 w-full lg:h-[19vh]  items-center  justify-start">
-                    <PersonalInfo subject="Nationality" details="Nigeria" className ="h-[28vh]" />
-
-                    
+                    <PersonalInfo
+                      subject="Nationality"
+                      details="Nigeria"
+                      className="h-[28vh]"
+                    />
                   </div>
                 </div>
               </div>
@@ -342,6 +477,18 @@ const PersonalInfo = ({ subject, details }) => {
       <p className="leading-tight dongle-regular  text-[17px]  lg:text-[23px] text-[#bebbbb]">
         {details}
       </p>
+    </div>
+  );
+};
+
+const TechnicalSkillSet = ({ SkillName, SkillLogo, SkillUseCase }) => {
+  return (
+    <div className="carlito  w-[78vw] border-solid border-[red] border-[0px]  font-[600] h-[33vh] lg:h-[28vh] bg-[#1c1c1c] lg:w-[41vw] gap-2 flex  flex-col p-6 rounded-lg">
+      <div className="border-solid border-[red] border h-20 flex justify-center items-center ">{SkillLogo}</div>
+      <div className="flex flex-col   border-[red] border items-center justify-center gap-3">
+        <h4>{SkillName}</h4>
+        <p>{SkillUseCase}</p>
+      </div>
     </div>
   );
 };

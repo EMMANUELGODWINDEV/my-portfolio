@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { FiMenu, FiX } from "react-icons/fi";
+import {  FiX } from "react-icons/fi";
+import { CiMenuFries } from "react-icons/ci";
 
 const AnimatedMenuIcon = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -27,7 +28,7 @@ const AnimatedMenuIcon = () => {
           {isOpen ? (
             <FiX size={28} color="#0e0f09" /> // Inverted colors for better visibility
           ) : (
-            <FiMenu size={28} color="#9fe30e" />
+            <CiMenuFries size={28} color="#9fe30e" />
           )}
         </motion.div>
       </motion.div>
@@ -47,7 +48,7 @@ const DropDownContainerDiv = () => {
       initial={{ opacity: 0, scale: 0.8, y: -10 }}
       animate={{ opacity: 1, scale: 1, y: 0 }}
       exit={{ opacity: 0, scale: 0.8, y: -10 }}
-      transition={{ duration: 0.3, ease: "easeInOut" }}
+      transition={{ duration: 0.2, ease: "easeInOut" }}
       className="absolute top-12 right-0 bg-[#0e0f09] border border-[#9fe30e] z-[5000] flex flex-col items-center rounded-xl shadow-lg p-4 w-[34vw] max-w-[80vw]"
     >
       <div className="flex flex-col gap-3 w-full">

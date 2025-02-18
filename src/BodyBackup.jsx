@@ -16,7 +16,7 @@ import "./global.css";
 function Body() {
   return (
     <>
-      <div className="  brightness-125 flex bg-[#0c0d08] items-center justify-center pb-4   h-[143vh] lg:h-[120vh] w-screen">
+      <div className="  brightness-125 flex bg-[#0c0d08] items-center justify-center pb-4   h-[143vh] lg:h-[120vh] w-screen overflow-hidden">
         <div className=" h-full  lg:h-[inherit] w-[85vw]  flex-col justify-center  flex   ">
           <div className=" h-[120vh] lg:h-[80vh] w-[inherit]  flex-col flex lg:flex-row justify-between      ">
             <div className=" h-[70vh] lg:h-[inherit]   lg:pt-3  bg-[#0c0d08] lg:w-[45vw]  flex flex-col justify-start items-start  ">
